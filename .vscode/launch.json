@@ -1,0 +1,10 @@
+{
+	"configurations": [
+		{
+			"type": "pwa-chrome",
+			"name": "http://127.0.0.1:3000/endpoint_unsaved/Untitled-1",
+			"request": "launch",
+			"url": "http://127.0.0.1:3000/endpoint_unsaved/Untitled-1"
+		}
+	]
+}

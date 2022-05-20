@@ -1,0 +1,139 @@
+/* === DESKTOP FIRST === */
+
+/* xl <= Extra extra large (xxl) */
+@media (max-width : 1400px) {
+
+}
+
+/* lg <= Extra large (xl) */
+@media (max-width : 1200px) {
+
+	.top-menu__item{
+		margin: 0;
+	}
+	.top-menu__link{
+		padding: 7.5px 15px;
+	}
+
+	.home-callback__list > * {
+		width: 49%;
+	}
+
+}
+
+
+/* md <= Large (lg) */
+@media (max-width : 992px) {
+
+	.top-menu{
+		position: absolute;
+		visibility: hidden;
+		opacity: 0;
+		background-color: var(--dark);
+		right: 35px;
+		top: -7px;
+		border-radius: var(--radius);
+		overflow:hidden;
+	}
+	.top-menu__item{
+		display: block;
+	}
+	.top-menu__link{
+		display: block;
+		text-align: left;
+		padding: 14px 35px;
+		border-bottom: 1px solid rgba(255,255,255,.05);
+		color: rgba(255,255,255,.5);
+		border-radius: 0;
+		line-height: 1.5;
+		font-size: 12px;
+		text-transform: uppercase;
+	}
+	.top-menu__link:hover, 
+	.top-menu__link:focus, 
+	span.top-menu__link {
+		color: rgba(255,255,255, .75);
+		background-color: rgba(196, 196, 196, 0.075);
+	}
+	.menu-toggle{
+		display: block;
+	}
+	.home-callback__list,
+	.home-callback__header {
+		display: none;
+	}
+	.home-callback__text-right {
+		text-align: center;
+	}
+	.home-callback__phone {
+		display: block;
+	}
+
+	.best-item__desc {
+		font-size: 16px;
+	}
+
+
+}
+
+/* sm <= Medium (md) */
+@media (max-width : 768px) {
+
+	.best-works__left {
+		display: none;
+	}
+	.best-works__right {
+		flex: 1;
+		margin: 0;
+		padding: 0;
+	}
+	.best-item__desc {
+		font-size: 20px;
+	}
+	.best-works__button-wrapper {
+		margin-top: 15px;
+	}
+
+}
+
+/* xs <= Small (sm) */
+@media (max-width : 576px) {
+
+	.home-slider__heading {
+		font-size: 40px;
+	}
+
+}
+
+
+/* === MOBILE FIRST === */
+
+/* Custom (xs) */
+@media (min-width : 0) {
+
+}
+
+/* Small (sm) */
+@media (min-width : 576px) {
+
+}
+
+/* Medium (md) */
+@media (min-width : 768px) {
+
+}
+
+/* Large (lg) */
+@media (min-width : 992px) {
+
+}
+
+/* Extra large (xl) */
+@media (min-width : 1200px) {
+
+}
+
+/* Extra extra large (xxl) */
+@media (min-width : 1400px) {
+
+}
