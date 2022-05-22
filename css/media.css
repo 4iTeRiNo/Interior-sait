@@ -72,6 +72,10 @@
 	.best-item__desc {
 		font-size: 16px;
 	}
+	.best-works__top {
+		padding-top: 40px;
+		padding-bottom: 155px;
+	}
 
 
 }
@@ -87,14 +91,14 @@
 		margin: 0;
 		padding: 0;
 	}
+
 	.best-item__desc {
 		font-size: 20px;
 	}
 	.best-works__button-wrapper {
-		margin-top: 15px;
+		margin-top 15px;
 	}
 
-}
 
 /* xs <= Small (sm) */
 @media (max-width : 576px) {

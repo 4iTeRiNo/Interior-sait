@@ -494,12 +494,10 @@ form input, form textarea {
 	margin-bottom: var(--gutter);
 }
 .best-works__button-wrapper {
-	display: block;
+	/* display: block; */
 	text-align: center;
-	background-color: var(--accent);
 	margin-top: 25px;
-	width: 278px;
-	margin-bottom: 25px;
+
 }
 
 /* SECTION TITLE */
