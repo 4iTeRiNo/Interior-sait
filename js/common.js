@@ -69,6 +69,17 @@ document.addEventListener('DOMContentLoaded', function() {
 			runCallbacksOnInit: true
 	})
 
+	const advSlider = new Swiper('.advantages-slider', {
+		effect: 'fade',
+		speed: 1400,
+		autoplay: {
+			delay: 5000,
+			disableOnInteraction: false
+		}
+
+	})
+
+
 	// CAllback list==================================================================================================================================================================================
 $('.home-callback__list li').each(function() {
 	$(this).html($(this).text().replace(/([0-9.]+)/g, '<span>$1</span>'))
