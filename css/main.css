@@ -540,7 +540,7 @@ form input, form textarea {
 .best-item {
 	background-color: #Fff;
 	display: block;
-	/* height: 100%; */
+	height: 100%;
 	text-decoration: none;
 	color: var(--text);
 	transition: border var(--transition);
